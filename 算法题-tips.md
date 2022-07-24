@@ -1,26 +1,28 @@
 # 树结构
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 
-# 链表结构
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     */
+
+# 
+
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) {
+     *         val = x;
+     *         next = null;
+     *     }
+     * }
+     */
 # 排序算法：
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/21808628/1629600227133-f0cb2388-a856-477f-b1b5-0b456452b297.png#clientId=u1f519363-7956-4&from=paste&height=398&id=ub8cc286c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=474&originWidth=720&originalType=url&ratio=1&size=129533&status=done&style=none&taskId=u50708fc3-902d-4ee1-ba8f-c1618e47c40&width=604)
 计数排序：
@@ -102,6 +104,7 @@ add()，subtract()，multiply()，divide()，mod()，remainder()，pow()，abs()
 compareTo()返回一个int型数据：1 大于； 0 等于； -1 小于；
 max()，min()：分别返回大的（小的）那个BigInteger数据；
 //比较大小:compareTo(),max(),min()
+	
 	@Test
 	public void testCompare() {
 		BigInteger bigNum1 = new BigInteger("52");
