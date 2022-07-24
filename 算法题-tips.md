@@ -130,13 +130,13 @@ max()，min()：分别返回大的（小的）那个BigInteger数据；
 如果ans是负数，ans小于最小值/10，那么无论后面添加什么值必越界
 如果ans是负数，ans等于最小值/10，如果后面添加的值小于最小值%10也会越界
 
-                    if(flag==1&&(ans>(Integer.MAX_VALUE/10)||(ans==Integer.MAX_VALUE/10&&add>=Integer.MAX_VALUE%10))){
-                        ans=Integer.MAX_VALUE;
-                        break;
-                    }else if(flag==-1&&(-1*ans<(Integer.MIN_VALUE/10)||(-1*ans==Integer.MIN_VALUE/10&&-1*add<=Integer.MIN_VALUE%10))){
-                        ans=Integer.MIN_VALUE;
-                        break;
-                    }
+    if(flag==1&&(ans>(Integer.MAX_VALUE/10)||(ans==Integer.MAX_VALUE/10&&add>=Integer.MAX_VALUE%10))){
+        ans=Integer.MAX_VALUE;
+        break;
+    }else if(flag==-1&&(-1*ans<(Integer.MIN_VALUE/10)||(-1*ans==Integer.MIN_VALUE/10&&-1*add<=Integer.MIN_VALUE%10))){
+        ans=Integer.MIN_VALUE;
+        break;
+    }
 # 复制List
 List<Integer>  list2=new ArrayList<>(list);
 # 取中值操作
